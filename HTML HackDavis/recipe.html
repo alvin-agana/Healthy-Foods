@@ -1,51 +1,119 @@
 <html>
     <head>
-        <title>Your recipes</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/recipe.css') }}" />
+        <title>Recipes | AppName</title>
+          <link rel="stylesheet" href="recipes.css" />
     </head>
     <body>
         <!-- style="background: url(/static/img/foodbanner.jpg) center / cover no-repeat;" -->
         <div class="info">
             <div class="info-container">
                 <div class="info-border-in">
-                    <h1>Here's what we found...</h1>
-                    
-                    <!--
-                        <div class="info-food">
-                        {%for j, recipe in enumerate(f) %}
-                            {% if j < 8 %}
-                                <span>{{recipe['title']}},</span>
-                            {% endif %}
-                        {% endfor %}
-                        </div>
-                    -->
+
+                  <div class="announcement">
+                    <div class= "foodIcon">
+                    <img class= "recipe-box-image" src = "HackDavis Images/fruit4.png">
+                    <h1 class = nameFood>STRAWBERRY</h1>
+                  </div>
+                    <p>is in Season!</p>
+                  </div>
+
                 <div class="food-container">
+                  <div class = "headRecipe">
+                    <h2>------------------------Recipes------------------------</h2>
+                    <p>with Strawberries</p>
+                  </div>
                     <div class="info-food">
-                        {%for i in range(8) %}
-                            {% if i < 8 %}
                                 <div class="recipe-box">
                                     <div class="recipe-box-image">
-                                        image box goes here
+                                        <img src = "HackDavis Images/fruit4.png">
                                     </div>
                                     <div class="recipe-box-info">
                                         <h2>recipe title</h2>
                                         <p>basic info</p>
                                     </div>
                                 </div>
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                                        
-                    <div class="market-box">
-                    {% for i, place in enumerate(z) %}
-                        {% if i < 10%}
-                            <span class="market">{{place.marketname.split(" ", 1)[1]}} ({{place.marketname.split(" ",1)[0]}} miles)</span>
-                        {% endif %}
-                    {% endfor %}
+                                <div class="recipe-box">
+                                    <div class="recipe-box-image">
+                                        <img src = "HackDavis Images/fruit4.png">
+                                    </div>
+                                    <div class="recipe-box-info">
+                                        <h2>recipe title</h2>
+                                        <p>basic info</p>
+                                    </div>
+                                </div>
+                                <div class="recipe-box">
+                                    <div class="recipe-box-image">
+                                        <img src = "HackDavis Images/fruit4.png">
+                                    </div>
+                                    <div class="recipe-box-info">
+                                        <h2>recipe title</h2>
+                                        <p>basic info</p>
+                                    </div>
+                                </div>
+                                <div class="recipe-box">
+                                    <div class="recipe-box-image">
+                                        <img src = "HackDavis Images/fruit4.png">
+                                    </div>
+                                    <div class="recipe-box-info">
+                                        <h2>recipe title</h2>
+                                        <p>basic info</p>
+                                    </div>
+                                </div>
+                                <div class="recipe-box">
+                                    <div class="recipe-box-image">
+                                        <img src = "HackDavis Images/fruit4.png">
+                                    </div>
+                                    <div class="recipe-box-info">
+                                        <h2>recipe title</h2>
+                                        <p>basic info</p>
+                                    </div>
+                                </div>
+                                <div class="recipe-box">
+                                    <div class="recipe-box-image">
+                                        <img src = "HackDavis Images/fruit4.png">
+                                    </div>
+                                    <div class="recipe-box-info">
+                                        <h2>recipe title</h2>
+                                        <p>basic info</p>
+                                    </div>
+                                </div>
+                                <div class="recipe-box">
+                                    <div class="recipe-box-image">
+                                        <img src = "HackDavis Images/fruit4.png">
+                                    </div>
+                                    <div class="recipe-box-info">
+                                        <h2>recipe title</h2>
+                                        <p>basic info</p>
+                                    </div>
+                                </div>
+                                <div class="recipe-box">
+                                    <div class="recipe-box-image">
+                                        <img src = "HackDavis Images/fruit4.png">
+                                    </div>
+                                    <div class="recipe-box-info">
+                                        <h2>recipe title</h2>
+                                        <p>basic info</p>
+                                    </div>
+                                </div>
                     </div>
                 </div>
-                    
-                
+                <div class = "divider1">
+                  <h2>Locations to Purchase Produce</h2>
+                  <p>Next time you go shopping, consider stopping by your local farmer's market for the fresh produce!</p>
+                </div>
+                <div market-container>
+                    <div class="market-box">
+                            <span class="market">ADD YOUR CODE HERE.</span>
+                            <span class="market">ADD YOUR CODE HERE.</span>
+                            <span class="market">ADD YOUR CODE HERE.</span>
+                            <span class="market">ADD YOUR CODE HERE.</span>
+                            <span class="market">ADD YOUR CODE HERE.</span>
+                            <span class="market">ADD YOUR CODE HERE.</span>
+                            <span class="market">ADD YOUR CODE HERE.</span>
+                            <span class="market">ADD YOUR CODE HERE.</span>
+                            <span class="market">ADD YOUR CODE HERE.</span>
+
+                </div>
                 </div>
             </div>
         </div>
