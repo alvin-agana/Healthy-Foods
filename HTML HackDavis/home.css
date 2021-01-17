@@ -96,13 +96,13 @@
   justify-content: flex-end;
 }
 
+
 .missionstatement{
-  margin-left: 45em;
+  margin-left: 40em;
   margin-right: 10em;
-  margin-bottom: 2em;
   padding-left: 2em;
   padding-right: 2em;
-  padding-top: 4em;
+  padding-top: 2em;
   padding-bottom: 2em;
   color:#333;
 }
@@ -118,15 +118,18 @@
   margin-right: 14px;
 }
 
+.textInfo{
+  font-size: 18px;;
+}
+
 /* ----------Steam Animation -------------*/
 /******************************************/
-
 
 .veggie{
   position:absolute;
   overflow:hidden;
   border-radius:50%;
-  margin-top:-75px;
+  margin-top:-105px;
   margin-left:300px;
   opacity:0;
 }
@@ -143,12 +146,12 @@
 
   @-webkit-keyframes vsteam-1 {
     0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.6;}
-    100% {transform: translateY(-200px) translateX(-100px) scale(1); opacity: 0;}
+    100% {transform: translateY(-300px) translateX(-100px) scale(1); opacity: 0;}
   }
 
   @keyframes vsteam-1 {
     0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.6;}
-    100% {transform: translateY(-200px) translateX(-100px) scale(1); opacity: 0;}
+    100% {transform: translateY(-300px) translateX(-100px) scale(1); opacity: 0;}
   }
 
   #vsteam-2 {
@@ -163,12 +166,12 @@
 
   @-webkit-keyframes vsteam-2 {
     0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.6;}
-    100% {transform: translateY(-200px) translateX(100px) scale(1); opacity: 0;}
+    100% {transform: translateY(-300px) translateX(100px) scale(1); opacity: 0;}
   }
 
   @keyframes vsteam-2 {
     0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.6;}
-    100% {transform: translateY(-200px) translateX(100px) scale(1); opacity: 0;}
+    100% {transform: translateY(-300px) translateX(100px) scale(1); opacity: 0;}
 }
 
 #vsteam-5 {
@@ -183,22 +186,22 @@
 
 @-webkit-keyframes vsteam-5 {
   0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.6;}
-  100% {transform: translateY(-200px) translateX(-100px) scale(1); opacity: 0;}
+  100% {transform: translateY(-300px) translateX(-100px) scale(1); opacity: 0;}
 }
 
 @keyframes vsteam-5 {
   0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.6;}
-  100% {transform: translateY(-200px) translateX(-100px) scale(1); opacity: 0;}
+  100% {transform: translateY(-300px) translateX(-100px) scale(1); opacity: 0;}
 }
 
 @-webkit-keyframes vsteam-6 {
   0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.6;}
-  100% {transform: translateY(-200px) translateX(100px) scale(1); opacity: 0;}
+  100% {transform: translateY(-300px) translateX(100px) scale(1); opacity: 0;}
 }
 
 @keyframes vsteam-6 {
   0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.6;}
-  100% {transform: translateY(-200px) translateX(100px) scale(1); opacity: 0;}
+  100% {transform: translateY(-300px) translateX(100px) scale(1); opacity: 0;}
 }
 
 
@@ -212,34 +215,31 @@
 .missionstatement2{
 
   margin-right: 10em;
-  margin-top: 2em;
-  margin-bottom:2em;
+  margin-left: 1em;
   padding: 2em;
   color:#333;
 }
 
+.textInfo{
+  font-size: 2 rem;
+}
+
+
 .pot{
-  margin-right: 6em;
-  margin-left:2em;
+  margin-left:9.5em;
   margin-top:4em;
 
 }
 
 .potlid{
-  margin-left: 10em;
+  margin-left: 2.5em;
   -webkit-animation-duration: 20s;
   animation-duration: 20s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   animation-iteration-count:infinite;
+  animation-delay: 4s;
 }
-
-
-.potbottom{
-  margin-left: 7.5em;
-
-}
-
 
 /*swinging animation*/
 @-webkit-keyframes swing {
@@ -285,6 +285,7 @@
 }
 
 /* end of fading in text animation*/
+
 
 .contactInfo{
   background-color: #111;
