@@ -287,48 +287,49 @@
 /* end of fading in text animation*/
 
 .contactInfo{
-
   background-color: #111;
   margin:auto;
   display: flex;
 }
 .stove{
   margin:auto;
+  display: flex;
+
 }
 
+.socialIcon{
+
+  display:flex;
+  flex-direction: column;
+}
 .ovenknob{
-  margin-top: 1em;
-  margin-bottom: 1em;
+
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
-.fab{
-  text-decoration: none;
-  color: grey;
-  padding: 1em;
-
+.inactive{
+  margin-top:2em;
 }
+
 
 .fa-github{
+  margin: 5px;
   text-decoration: none;
   color: grey;
-  padding: 1em;
   text-align: center;
 }
-.fab-linkedin-in{
-  text-decoration: none;
-  color: grey;
-  padding: 1em;
-  text-align: center;
-}
-
 .fa-github:hover{
   color:lightblue;
 }
 
-.fa-linkedin-in:hover{
-  color:lightblue;
+.fa-linkedin-in{
+  margin: 5px;
+  text-decoration: none;
+  color: grey;
+  text-align: center;
 }
 
-.fab:hover{
-  color: lightblue;
+.fa-linkedin-in:hover{
+  color:lightblue;
 }
