@@ -39,7 +39,7 @@
 
 .homePage-box {
   background: rgb(206,255,201);
-  background: linear-gradient(0deg, rgba(206,255,201,1) 0%, rgba(119,221,119,1) 100%);  
+  background: linear-gradient(0deg, rgba(206,255,201,1) 0%, rgba(119,221,119,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,8 +75,6 @@
 }
 
 
-
-
 .trendHeading{
   background-color: #CEFFC9;
 }
@@ -92,14 +90,13 @@
 }
 
 .missionstatement{
-  padding-top: 5em;
+  margin-left: 50em;
+  margin-right: 10em;
+  margin-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 4em;
   padding-bottom: 2em;
-  text-align: right;
-}
-
-.missionstatement-paragraph {
-  width: 50%;
-  text-align: right;
 }
 
 /* steam animation */
@@ -117,65 +114,81 @@
 }
 
 #steam-1 {
-  -webkit-animation: steam-1 4s ease-out;
+  -webkit-animation: steam-1 4s ease-out infinite;
   animation: steam-1 4s ease-out infinite;
 }
 
 #steam-3 {
-  -webkit-animation: steam-1 4s ease-out 1s;
+  -webkit-animation: steam-1 4s ease-out 1s infinite;
   animation: steam-1 4s ease-out 1s infinite;
 }
 
 @-webkit-keyframes steam-1 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 1;}
   100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
 }
 
 @keyframes steam-1 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 1;}
   100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
 }
 
 #steam-2 {
-  -webkit-animation: steam-2 4s ease-out 0.5s ;
+  -webkit-animation: steam-2 4s ease-out 0.5s infinite;
   animation: steam-2 4s ease-out 0.5s infinite;
 }
 
 #steam-4 {
-  -webkit-animation: steam-2 4s ease-out 1.5s ;
+  -webkit-animation: steam-2 4s ease-out 1.5s infinite;
   animation: steam-2 4s ease-out 1.5s infinite;
 }
 
 @-webkit-keyframes steam-2 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 1;}
   100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
 }
 
 @keyframes steam-2 {
-  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 1;}
   100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
 }
 
 /*end of steam animation*/
 
-.potbackground{
-  background-color: #CEFFC9;
-  padding-left: 5em;
+
+.additionalInfo{
+  display:flex;
 }
 
-.potlid {
-  padding-left: 2.5em;
+.missionstatement2{
+  margin-left: 2em;
+  margin-right: 10em;
+  margin-top: 2em;
+  margin-bottom:2em;
+  padding: 2em;
+}
+
+.pot{
+  margin-right: 8em;
+  margin-left:2em;
+}
+
+.potlid{
+  margin-left: 10em;
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
-  animation-delay: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+
+.potbottom{
+  margin-left: 7.5em;
 }
 
 
 /*swinging animation*/
 @-webkit-keyframes swing {
-  10%, 20%, 30% 40%,50%, 60%, 70%, 80%, 90%,100% { -webkit-transform-origin:top center;}
+  20%,40%, 60%, 80%,100% { -webkit-transform-origin:top center;}
   20% { -webkit-transform: rotate(9deg); }
   40% { -webkit-transform: rotate(-7deg); }
   60% { -webkit-transform: rotate(5deg); }
@@ -216,14 +229,21 @@
 
 /* end of fading in text animation*/
 
-
 .contactInfo{
+
   background-color: black;
+  margin:auto;
   display: flex;
 }
-
 .socialIcons{
+  border: solid white;
+  margin:auto;
+}
+
+.ovenknob{
   padding-right: 7em;
   padding-left: 7em;
+  padding-top: 2em;
+  padding-bottom:2em;
 
 }
