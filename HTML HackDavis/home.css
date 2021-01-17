@@ -1,3 +1,6 @@
+*{
+    border: ;
+}
 .homePage{
   padding-left: 12em;
   padding-right: 12em;
@@ -11,7 +14,7 @@
 }
 
 .homePage-center {
-  display: flex;
+  img class="foodimage": flex;
   flex-direction: column;
   align-items: center;
 }
@@ -42,9 +45,6 @@
   color: black;
 }
 
-
-
-
 .trendHeading{
   background-color: #a2b570;
 }
@@ -55,10 +55,10 @@
 }
 
 .missionstatement{
-  padding-left: 12em;
-  padding-right: 12em;
+  padding-left: 60em;
+  padding-right: 15em;
   padding-top: 5em;
-  padding-bottom: 5em;
+  padding-bottom: 15em;
 }
 
 /* steam animation */
@@ -174,6 +174,7 @@
 
 /* end of fading in text animation*/
 
+
 .contactInfo{
   background-color: black;
   display: flex;
@@ -182,4 +183,5 @@
 .socialIcons{
   padding-right: 7em;
   padding-left: 7em;
+
 }
