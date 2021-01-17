@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 /* Home */
 .homePage {
   height: 100vh;
@@ -37,7 +38,8 @@
 }
 
 .homePage-box {
-  background: #F98B88;
+  background: rgb(206,255,201);
+  background: linear-gradient(0deg, rgba(206,255,201,1) 0%, rgba(119,221,119,1) 100%);  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,19 +78,28 @@
 
 
 .trendHeading{
-  background-color: #a2b570;
+  background-color: #CEFFC9;
 }
 
 
 .appInfo{
-  background-color: #a2b570;
+  background-color: #CEFFC9;
+}
+
+.appInfo-2 {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .missionstatement{
-  padding-left: 12em;
-  padding-right: 12em;
   padding-top: 5em;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
+  text-align: right;
+}
+
+.missionstatement-paragraph {
+  width: 50%;
+  text-align: right;
 }
 
 /* steam animation */
@@ -148,7 +159,7 @@
 /*end of steam animation*/
 
 .potbackground{
-  background-color: #a2b570;
+  background-color: #CEFFC9;
   padding-left: 5em;
 }
 
