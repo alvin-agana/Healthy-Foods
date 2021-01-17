@@ -1,7 +1,3 @@
-*{
-  border: ;
-}
-
 .homePage{
   padding-left: 12em;
   padding-right: 12em;
@@ -11,15 +7,43 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-}
-.searchBar{
   text-align: center;
+}
+
+.homePage-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homePage-search {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.homePage-text {
+  color: white;
+}
+
+.searchBar{
+  width: 70%;
 }
 
 .advancedSearch{
   text-align: center;
+  border: 2px solid white;
+  background-color: beige;
+  padding: 10px;
+  border-radius: 5px;
 }
+
+.advancedSearch a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
 
 .trendHeading{
   background-color: #a2b570;
@@ -45,7 +69,7 @@
   background-color:#fff;
   margin-top:-75px;
   margin-left:350px;
-  z_index:-1;
+  z-index: -1;
   opacity:0;
 }
 
