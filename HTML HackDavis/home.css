@@ -1,22 +1,30 @@
-*{
-    border: ;
+.html {
+  margin: 0;
+  padding: 0;
 }
-.homePage{
-  padding-left: 12em;
-  padding-right: 12em;
-  padding-top: 20em;
-  padding-bottom: 20em;
+
+/* Home */
+.homePage {
+  height: 100vh;
   background-image: url("HackDavis Images/foodbanner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
 }
 
 .homePage-center {
-  img class="foodimage": flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  width: 95%;
+  height: 95%;
 }
 
 .homePage-search {
@@ -28,22 +36,44 @@
   color: white;
 }
 
+.homePage-box {
+  background: #F98B88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 40%;
+}
+
 .searchBar{
   width: 70%;
+}
+
+.searchBar:active {
+  opacity: 1;
 }
 
 .advancedSearch{
   text-align: center;
   border: 2px solid white;
   background-color: beige;
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .advancedSearch a {
   text-decoration: none;
   color: black;
+  font-size: 12px;
 }
+
+.advancedSearch:hover {
+  opacity: 0.9;
+}
+
+
+
 
 .trendHeading{
   background-color: #a2b570;
@@ -55,10 +85,10 @@
 }
 
 .missionstatement{
-  padding-left: 60em;
-  padding-right: 15em;
+  padding-left: 12em;
+  padding-right: 12em;
   padding-top: 5em;
-  padding-bottom: 15em;
+  padding-bottom: 5em;
 }
 
 /* steam animation */
@@ -76,12 +106,12 @@
 }
 
 #steam-1 {
-  -webkit-animation: steam-1 4s ease-out infinite;
+  -webkit-animation: steam-1 4s ease-out;
   animation: steam-1 4s ease-out infinite;
 }
 
 #steam-3 {
-  -webkit-animation: steam-1 4s ease-out 1s infinite;
+  -webkit-animation: steam-1 4s ease-out 1s;
   animation: steam-1 4s ease-out 1s infinite;
 }
 
@@ -96,12 +126,12 @@
 }
 
 #steam-2 {
-  -webkit-animation: steam-2 4s ease-out 0.5s infinite;
+  -webkit-animation: steam-2 4s ease-out 0.5s ;
   animation: steam-2 4s ease-out 0.5s infinite;
 }
 
 #steam-4 {
-  -webkit-animation: steam-2 4s ease-out 1.5s infinite;
+  -webkit-animation: steam-2 4s ease-out 1.5s ;
   animation: steam-2 4s ease-out 1.5s infinite;
 }
 
@@ -122,10 +152,11 @@
   padding-left: 5em;
 }
 
-.potlid{
+.potlid {
   padding-left: 2.5em;
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
+  animation-delay: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
