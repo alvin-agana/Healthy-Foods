@@ -76,13 +76,13 @@
 }
 
 #steam-1 {
-  -webkit-animation: steam-1 4s ease-out;
-  animation: steam-1 4s ease-out;
+  -webkit-animation: steam-1 4s ease-out infinite;
+  animation: steam-1 4s ease-out infinite;
 }
 
 #steam-3 {
-  -webkit-animation: steam-1 4s ease-out 1s;
-  animation: steam-1 4s ease-out 1s;
+  -webkit-animation: steam-1 4s ease-out 1s infinite;
+  animation: steam-1 4s ease-out 1s infinite;
 }
 
 @-webkit-keyframes steam-1 {
@@ -96,13 +96,13 @@
 }
 
 #steam-2 {
-  -webkit-animation: steam-2 4s ease-out 0.5s ;
-  animation: steam-2 4s ease-out 0.5s ;
+  -webkit-animation: steam-2 4s ease-out 0.5s infinite;
+  animation: steam-2 4s ease-out 0.5s infinite;
 }
 
 #steam-4 {
-  -webkit-animation: steam-2 4s ease-out 1.5s ;
-  animation: steam-2 4s ease-out 1.5s ;
+  -webkit-animation: steam-2 4s ease-out 1.5s infinite;
+  animation: steam-2 4s ease-out 1.5s infinite;
 }
 
 @-webkit-keyframes steam-2 {
