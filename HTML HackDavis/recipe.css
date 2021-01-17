@@ -1,46 +1,41 @@
+
+
 html, body {
     margin: 0;
 }
 
 .info {
-    height: 100vh;
-    background-image: url("HackDavis Images/foodbanner.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(206,255,201);
-    background: linear-gradient(0deg, rgba(206,255,201,1) 0%, rgba(119,221,119,1) 100%)
-}
-
-.info-container {
-    height: 90%;
-    width: 85%;
-    text-align: center;;   
-    justify-content: center;
-    align-items: center; 
-    display: flex;
-    background: white;
-    box-shadow: 1px 1px 15px 1px gray;
-}
-
+  background-color: #f2f2ed;
+  }
 .info-border-in {
-    width: 95%;
-    height: 95%;
+}
+
+.announcement{
+  text-align:left;
+}
+
+.foodIcon{
+  display:flex;
+  flex-direction:row;
+  flex-direction:center;
+  align-items:center;
+}
+
+.nameFood{
+  margin-left: 3em;
 }
 
 .market-box {
-    box-shadow: 1px 1px 5px 1px gray;
     display: flex;
     flex-direction: column;
-    height: 20%;
+
+    height: 40%;
     width: 100%;
     overflow: scroll;
     overflow-x: hidden;
     position: relative;
 }
+
 
 .market {
     font-size: 20px;
@@ -57,44 +52,68 @@ html, body {
     color: white;
 }
 
+
 .info-food {
-    height: 65%;
-    width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    overflow: scroll;
+    text-align: center;
+    *overflow: scroll;*/
 }
 
+
 .recipe-box {
-    border: 2px solid black;
+    border: 2px solid lightgray;
     width: 20%;
-    height: 35%;
     padding: 10px;
-    margin: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.recipe-box-info{
+
 }
 
 .food-container {
     position: relative;
-    height: 100%;
+    background-color:#f98b88;
+    text-align:center;
 }
 
-.recipe-box-image {
+.headRecipe{
+  padding:2em;
 }
+
+
+.recipe-box-image {
+  height: 150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  margin-left: 4em;
+  margin-bottom: 2em;
+  margin-top:1em;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
   }
-  
   /* Track */
+
   ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
   }
-   
+
   /* Handle */
+
   ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
   }
-  
+
   /* Handle on hover */
+
   ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
   }
