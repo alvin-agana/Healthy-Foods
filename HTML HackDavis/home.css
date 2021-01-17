@@ -39,7 +39,7 @@
 
 .homePage-box {
   background: rgb(206,255,201);
-  background: linear-gradient(0deg, rgba(206,255,201,1) 0%, rgba(119,221,119,1) 100%);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(119,221,119,0.6) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,14 +71,8 @@
 }
 
 .advancedSearch:hover {
-  opacity: 0.9;
+  opacity: 0.95;
 }
-
-
-.trendHeading{
-  background-color: #CEFFC9;
-}
-
 
 .appInfo{
   background-color: #CEFFC9;
@@ -90,7 +84,7 @@
 }
 
 .missionstatement{
-  margin-left: 50em;
+  margin-left: 49em;
   margin-right: 10em;
   margin-bottom: 2em;
   padding-left: 2em;
@@ -235,15 +229,40 @@
   margin:auto;
   display: flex;
 }
-.socialIcons{
-  border: solid white;
+.stove{
   margin:auto;
 }
 
 .ovenknob{
-  padding-right: 7em;
-  padding-left: 7em;
-  padding-top: 2em;
-  padding-bottom:2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
+.fab{
+  text-decoration: none;
+  color: grey;
+  padding: 1em;
+
+}
+.email{
+  flex-direction: row;
+}
+.fas{
+  border: solid white;
+  text-decoration: none;
+  color: grey;
+  padding: 1em;
+  text-align: center;
+}
+
+.fas:hover{
+  color:lightblue;
+}
+
+.fab:hover{
+  color: lightblue;
+}
+
+.test{
+  border:solid white;
 }
