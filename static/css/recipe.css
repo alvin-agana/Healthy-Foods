@@ -1,0 +1,151 @@
+html, body {
+    margin: 0;
+}
+
+@font-face {
+  font-family: lemonMilkBold;
+  src: url("LEMONMILK-BOLD.otf");
+}
+
+@font-face {
+  font-family: lemonMilkReg;
+  src: url("LEMONMILK-Regular.otf");
+}
+
+.info {
+  background-color: #f2f2ed;
+  text-align: center;
+  /*
+  border:solid lightblue;
+    background-image: url("HackDavis Images/foodbanner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+  }
+.info-border-in {
+}
+
+.announcement{
+  text-align:center;
+}
+
+.foodIcon{
+  display:flex;
+  flex-direction:row;
+  flex-direction:center;
+  align-items:center;
+  font-family: lemonMilkBold;
+}
+
+.nameFood{
+  margin-left: 3em;
+}
+
+.market-box {
+    display: flex;
+    flex-direction: column;
+
+    height: 40%;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.market {
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    padding: 8px;
+    background: #f98b88;
+}
+
+.market:hover {
+    opacity: 0.8;
+}
+
+.market-box span {
+    color: white;
+}
+
+
+.info-food {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    /*overflow: scroll;*/
+}
+
+
+.recipe-box {
+    border: 2px solid lightgray;
+    width: 20%;
+    padding: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.food-container {
+    position: relative;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(249,139,136,1) 100%);
+    text-align:center;
+}
+
+.headRecipe{
+  padding-top: 1em;
+  font-family: lemonMilkReg;
+  font-size: 1em;
+
+}
+
+.littleRecipe{
+  font-family:lemonMilkReg;
+  font-size: 15px;
+}
+
+hr{width:30%;}
+
+.recipe-box-image {
+  height: 150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  margin-left: 1.5em;
+  margin-bottom: 2em;
+  margin-top:1em;
+}
+
+.divider1{
+  background-color: white;
+  border: 2px solid white;
+  font-family: lemonMilkReg;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

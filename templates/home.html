@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>Home | AppName</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/36f41ef42b.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+
+    <div class="homePage" style="background: url(/static/img/foodbanner.jpg) center / cover no-repeat;">
+      <div class="homePage-box">
+        <div class="homePage-center">
+          <div class="homePage-search">
+            <h1>healthyfood</h1>
+            <h3 class="homePage-text">healthy • fresh • local</h3>
+            <form class="searchBar" action="/recipe" method="POST">
+              <input class="form-control" type="text" name="ingredient" placeholder="Search for a recipe or ingredient to get started..." aria-label="Search" />
+              <input class="form-control" type="text" name="diet" placeholder="Any diet restrictions? (vegetarian, gluten-free)" aria-label="Search" />
+              <input class="form-control" type="text" name="zipcode"placeholder="Your zip code!" aria-label="Search" />
+              <input type="submit" value="SUBMIT" class="submit-button" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="appInfo">
+      <div class="missionstatement fade-in">
+        <div class="infoheader">
+        <h2 class = "infoheading">Local, small businesses</h2> <i class="fas fa-seedling fa-4x"></i>
+      </div>
+      <hr />
+      <div class = textInfo>
+        <p >We're all about eating <b>big</b> in nutrition and shopping <em>small</em> in business.
+                  <br /> <br /> We strive to support our local farmer's markets and small businesses all while giving you the best recipes based on your dietary needs.
+        </p>
+      </div>
+      </div>
+
+      <div class="veggiewrap">
+        <div class="veggie" id="vsteam-1"><img src= "/static/img/veggie3.png"></div>
+        <div class="veggie" id="vsteam-2"><img src= "/static/img/fruit1.png"></div>
+        <div class="veggie" id="vsteam-3"><img src= "/static/img/fruit2.png"></div>
+        <div class="veggie" id="vsteam-4"><img src= "/static/img//fruit3.png"></div>
+        <div class="veggie" id="vsteam-5"><img src= "/static/img/fruit4.png"></div>
+        <div class="veggie" id="vsteam-6"><img src= "/static/img/fruit6.png"></div>
+      </div>
+
+    <div class = "additionalInfo">
+      <div class ="pot">
+      <img class = "potlid swing" src = "/static/img/pot.png">
+      <br />
+      <img class = "potbottom" src = "/static/img/potbottom.png">
+    </div>
+      <div class = "missionstatement2 fade-in">
+        <div class="infoheader">
+        <h2 class = "infoheading">Inseasonal produce</h2>   <i class="far fa-snowflake fa-4x"></i>
+      </div>
+      <hr />
+      <div class = textInfo>
+        <p>Shopping locally not only guarantees the <em>freshest, most nurtrious</em> produce but
+          also ensures that you are buying in season crops. <br /> <br />
+          We're committed to your health to make sure you're eating right.
+        </p>
+      </div>
+      </div>
+  </div>
+</div>
+
+    <div class="contactInfo">
+      <div class="stove">
+        <div class = "inactive">
+        <img class = "ovenknob" src = "/static/img/kitchenknob.png" />
+      </div>
+        <div class = "socialIcon">
+        <a href = "https://github.com/angelayang2018" class="fab fa-github fa-1x"></a>
+        <img class = "ovenknob" src = "/static/img/kitchenknobalvin.png" />
+          <a href = "https://www.linkedin.com/in/angela-yang-985675202/" class="fab fa-linkedin-in fa-1x"></a>
+      </div>
+      <div class = "inactive">
+        <img class = "ovenknob" src = "/static/img/kitchenknob.png" />
+        </div>
+        <div class = "socialIcon">
+        <a href = "https://github.com/alvin-agana/portfolio" class="fab fa-github fa-1x"></a>
+        <img class = "ovenknob" src = "/static/img/kitchenknobangie.png" />
+        <a href = "https://www.linkedin.com/in/alvin-agana/" class="fab fa-linkedin-in fa-1x"></a>
+      </div>
+    </div>
+
+      </div>
+
+  </body>
+</html>
+
+<!-- /static/img/ -->
