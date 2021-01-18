@@ -2,6 +2,16 @@ html, body {
     margin: 0;
 }
 
+@font-face {
+  font-family: lemonMilkBold;
+  src: url("lemon_milk/LEMONMILK-BOLD.otf");
+}
+
+@font-face {
+  font-family: lemonMilkReg;
+  src: url("lemon_milk/LEMONMILK-Regular.otf");
+}
+
 .info {
   background-color: #f2f2ed;
   text-align: center;
@@ -27,6 +37,7 @@ html, body {
   flex-direction:row;
   flex-direction:center;
   align-items:center;
+  font-family: lemonMilkBold;
 }
 
 .nameFood{
@@ -91,9 +102,18 @@ html, body {
 }
 
 .headRecipe{
-  padding:2em;
+  padding-top: 1em;
+  font-family: lemonMilkReg;
+  font-size: 1em;
+
 }
 
+.littleRecipe{
+  font-family:lemonMilkReg;
+  font-size: 15px;
+}
+
+hr{width:30%;}
 
 .recipe-box-image {
   height: 150px;
@@ -105,8 +125,11 @@ html, body {
   margin-top:1em;
 }
 
-.barmenu{
-  border: solid black;
+.divider1{
+  background-color:lightgray;
+  border: solid lightgray;
+  border-bottom: 2px solid white;
+  font-family: lemonMilkReg;
 }
 
 ::-webkit-scrollbar {
