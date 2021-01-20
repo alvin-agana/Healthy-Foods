@@ -7,7 +7,8 @@ app = Flask(__name__)
 #API CALLS
 url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/search"
 headers = {
-    'x-rapidapi-key': "afa2ad2932msh58fc2754c6724d0p152481jsn59c06d6a4090",
+    # 1/20/21 Removed API Key
+    'x-rapidapi-key': "",
     'x-rapidapi-host': "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
 }
 
